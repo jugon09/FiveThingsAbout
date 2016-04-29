@@ -11,6 +11,46 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.camilo.fivethingsabout.MainActivity">
+        tools:context="com.example.camilo.fivethingsabout.MainActivity"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagePortAventura"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/portAventura"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/image_margin"
+            android:contentDescription="@string/portAventura"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPortAventura"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageIllaFantasia"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/illaFantasia"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/image_margin"
+            android:contentDescription="@string/portAventura"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textIllaFantasia"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageBarcelonaBeach"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/playa"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/image_margin"
+            android:contentDescription="@string/playa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPlaya"/>
     </LinearLayout>
 </ScrollView>
