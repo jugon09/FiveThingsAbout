@@ -1,6 +1,20 @@
 <resources>
-    <string name="app_name">Five Things About</string>
+    <string name="app_name">Lugares Divertidos Barcelona</string>
     <string name="portAventura">Port Aventura</string>
+    <string name="textoReducidoPortAventura">PortAventura es un complejo de ocio, situado en los municipios tarraconenses de Vila-seca y Salou en España. Con 3.400.000 visitantes durante el año 2014. Es el parque temático más visitado de España y el sexto de Europa.</string>
+    <string name="textoAmpliadoPortAventura">PortAventura es un complejo de ocio, situado en los municipios tarraconenses de Vila-seca y Salou en España. Con 3.400.000 visitantes durante el año 2014. Es el parque temático más visitado de España y el sexto de Europa. El parque se divide en seis áreas temáticas basadas en distintas civilizaciones históricas. Cada zona intenta reproducir fielmente detalles que existen o existieron en dichas civilizaciones y culturas para conseguir una inmersión máxim</string>
     <string name="illaFantasia">Illa Fantasia</string>
+    <string name="textoReducidoIllaFantasia">Illa Fantasia es un parque acuático situado en Vilassar de Dalt en la comarca del Maresme (Barcelona, España). Un complejo de ocio familiar que cuenta con 22 atracciones acuáticas, repartidas en más de 80.000m2.</string>
+    <string name="textoAmpliadoIllaFantasia">Illa Fantasia es un parque acuático situado en Vilassar de Dalt en la comarca del Maresme (Barcelona, España). Un complejo de ocio familiar que cuenta con 22 atracciones acuáticas, repartidas en más de 80.000m2. El parque se distingue por ser el único complejo lúdico con más de 10.000m2 de zona verde. Consta de 22 atracciones acuáticas, tres macro piscinas, un parque infantil, zona de minigolf y un área de recreo. Dispone de más de 900 mesas de picnic en un ambiente natural: un bosque de pinos.Dentro del parque también se encuentran cafeterías y restaurantes, self-service, una tienda, un cajero automático y varios puntos de información.</string>
     <string name="playa">Playa de Barcelona</string>
+    <string name="textoReducidoPlaya">Además de nadar, hay muchas otras cosas para hacer en la playa. El Windsurfing y kite surfing son muy populares. También puedes disfrutar de una refrescante bebida en una de las cabañas de la playa.</string>
+    <string name="textoAmpliadoPlaya">Además de nadar, hay muchas otras cosas para hacer en la playa. El Windsurfing y kite surfing son muy populares. También puedes disfrutar de una refrescante bebida en una de las cabañas de la playa. O, si quieres descansar, simplemente recuéstate y báñate en la calidez del sol español con un buen libro.</string>
+    <string name="discotecas">Discotecas</string>
+    <string name="textoReducidoDiscotecas">Si lo que buscas es una noche de fiesta a la orilla del mar, en las discotecas de la Villa Olimpica de Barcelona se harán tus sueños realidad.</string>
+    <string name="textoAmpliadoDiscotecas">Si lo que buscas es una noche de fiesta a la orilla del mar, en las discotecas de la Villa Olimpica de Barcelona se harán tus sueños realidad. Cada noche presentan una temática diferente, y en la mayoría de ellos puedes disfrutar de una cena a la luz de la luna o de un magnífico cocktail. Además, se puede reservar una mesa en la Zona VIP de cada club, donde el precio oscila entre los 180€ y los 300€ por mesa.</string>
+    <string name="textoReducidoAquarium">El Aquarium de Barcelona se encuentra situado en el Puerto Viejo de Barcelona. El complejo dispone de 35 acuarios diferentes que contienen unos 11.000 animales pertenecientes a 450 especies distintas</string>
+    <string name="textoAmpliadoAquarium">El Aquarium de Barcelona se encuentra situado en el Puerto Viejo de Barcelona. El complejo dispone de 35 acuarios diferentes que contienen unos 11.000 animales pertenecientes a 450 especies distintas. Dispone de un túnel submarino de 80 metros con más de 100 personas trabajando en él. El Aquarium ha sido visitado por 14 millones de personas desde su apertura el 8 de septiembre de 1995. También dispone de exposiciones, cafetería, tienda, auditorio y otros servicios.</string>
+    <string name="aquarium">Aquarium</string>
+    <string name="toogleActivado">Ver menos</string>
+    <string name="toogleDesactivado">Ver mas</string>
 </resources>

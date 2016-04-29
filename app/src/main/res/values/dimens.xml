@@ -3,4 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="image_margin">16dp</dimen>
+    <dimen name="darkLine">5dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="headSize">24sp</dimen>
+    <dimen name="title_margin">20dp</dimen>
+    <dimen name="toogle_margin">10dp</dimen>
 </resources>

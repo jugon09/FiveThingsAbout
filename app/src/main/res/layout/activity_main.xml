@@ -13,34 +13,90 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.camilo.fivethingsabout.MainActivity"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/portAventura"
+            android:textSize="@dimen/titleSize"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:textColor="@color/colorBlueTitol"/>
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imagePortAventura"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/portAventura"
+            android:src="@drawable/port_aventura"
             android:scaleType="centerCrop"
             android:layout_margin="@dimen/image_margin"
             android:contentDescription="@string/portAventura"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textPortAventura"/>
-        <ImageView
+            android:id="@+id/textPortAventura"
+            android:text="@string/textoReducidoPortAventura"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="@dimen/image_margin"/>/>
+        <ToggleButton
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verMasPortAventura"
+            android:layout_gravity="right"
+            android:textOn="@string/toogleActivado"
+            android:textOff="@string/toogleDesactivado"
+            android:layout_margin="@dimen/toogle_margin"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkLine"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/illaFantasia"
+            android:textSize="@dimen/titleSize"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:textColor="@color/colorBlueTitol"/>
+        <ImageView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageIllaFantasia"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/illaFantasia"
+            android:src="@drawable/illa_fantasia"
             android:scaleType="centerCrop"
             android:layout_margin="@dimen/image_margin"
             android:contentDescription="@string/portAventura"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textIllaFantasia"/>
-        <ImageView
+            android:id="@+id/textIllaFantasia"
+            android:text="@string/textoReducidoIllaFantasia"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="@dimen/image_margin"/>/>
+
+        <ToggleButton
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verMasIllaFantasia"
+            android:layout_gravity="right"
+            android:textOn="@string/toogleActivado"
+            android:textOff="@string/toogleDesactivado"
+            android:layout_margin="@dimen/toogle_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkLine"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playa"
+            android:textSize="@dimen/titleSize"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:textColor="@color/colorBlueTitol"/>
+        <ImageView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageBarcelonaBeach"
             android:layout_gravity="center_horizontal"
@@ -51,6 +107,111 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textPlaya"/>
+            android:id="@+id/textPlaya"
+            android:text="@string/textoReducidoPlaya"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="@dimen/image_margin"/>/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verMasPlaya"
+            android:layout_gravity="right"
+            android:textOn="@string/toogleActivado"
+            android:textOff="@string/toogleDesactivado"
+            android:layout_margin="@dimen/toogle_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkLine"
+            android:layout_margin="@dimen/darkLine"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discotecas"
+            android:textSize="@dimen/titleSize"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:textColor="@color/colorBlueTitol"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/image_margin">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imagePacha"
+                android:src="@drawable/pacha_barcelona"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/playa"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/imageVilaOlimpica"
+                android:src="@drawable/opium_barcelona"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/playa" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDiscotecas"
+            android:text="@string/textoReducidoDiscotecas"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="@dimen/image_margin"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verMasDiscotecas"
+            android:layout_gravity="right"
+            android:textOn="@string/toogleActivado"
+            android:textOff="@string/toogleDesactivado"
+            android:layout_margin="@dimen/toogle_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkLine"
+            android:layout_margin="@dimen/darkLine"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aquarium"
+            android:textSize="@dimen/titleSize"
+            android:layout_margin="@dimen/title_margin"
+            android:gravity="center"
+            android:textColor="@color/colorBlueTitol"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/aquarium"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/image_margin"
+            android:contentDescription="@string/playa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAquarium"
+            android:text="@string/textoReducidoAquarium"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="@dimen/image_margin"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verMasAquarium"
+            android:layout_gravity="right"
+            android:textOn="@string/toogleActivado"
+            android:textOff="@string/toogleDesactivado"
+            android:layout_margin="@dimen/toogle_margin"/>
     </LinearLayout>
 </ScrollView>
